@@ -1,0 +1,294 @@
+@font-face {
+    font-family: 'GlacialIndif';
+    src: url(fontes/GlacialIndifference-Regular.otf)format('opentype');
+}
+*{
+    margin: 0;
+    font-family: "GlacialIndif";
+    box-sizing: border-box;
+    padding: 0;
+}
+html{
+	scroll-behavior: smooth;
+	scroll-padding-top: 10vh;
+}
+header{
+    padding-top: 2vh;
+    width: 100%;
+    position: fixed;
+}
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    margin-left: 15vh;
+}
+.logotipo{
+    width: 50%;
+}
+ul{
+    display: flex;
+    justify-content: end;
+    gap: 4vh;
+    margin-right: 15vh;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo{
+    display: flex;
+    justify-content: start;
+}
+.elem1{
+    position: absolute;
+    transform: translateX(105vh);
+    top: -15vh;
+}
+.mark1{
+    width: 139%;
+    transform: rotate(-6deg);
+    animation-name: movimento;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes movimento {
+    0%{
+       transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-1)
+    }
+    50%{
+        transform: translateX(2)
+    }
+    75%{
+        transform: translateX(3)
+    }
+    100%{
+        transform: translateX(-90)
+    }
+}
+.avatar{
+    position: absolute;
+    left: 105vh;
+    top: -10.4vh;
+}
+.avatarlara{
+    width: 130%;
+}
+h1.titulocorpo{ 
+    text-align: center;
+    font-size: 4vh;
+}
+.apresentacao{
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+.aprenbox{
+    position: relative;
+    top: 30vh;
+    left: 15vh;
+}
+.titulointro{
+    padding-bottom: 1vh;
+    font-weight: 900;
+    font-size: 5vh;
+}
+.subtitulointro{
+    padding-bottom: 2.5vh;
+}
+.textointro{
+    width: 45vw;
+    text-align: justify;
+    padding-bottom: 3vh;
+}
+button.saibamais{
+    width: 16vh;
+    height: 4vh;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.saibamais{
+    color: rgb(119, 119, 119);
+}
+.mainredes{
+    padding-top: 5vh;
+}
+.fa-brands{
+    padding-right: 0.6vh;
+    cursor: pointer;
+}
+.fa-solid{
+    cursor: pointer;
+}
+
+
+/* -------------------------------------------------------------------Sobre--------------------------------------------------------------- */
+
+.sobre{
+    min-height: 100vh;
+}
+.elem2{
+    margin-left: 15vh;
+}
+.fotolara{
+    width: 58%;
+}
+.foto{
+    position: relative;
+    left: -42vh;
+}
+.superiorsobre{
+    display: flex;
+    align-items: center;
+    padding-top: 5vh;
+}
+.titulosobre{
+   position: relative;
+   right: 45vh;
+}
+.nomesobre{
+    font-size: 4vh;
+    padding-bottom: 1.5vh;
+}
+hr.line1{
+    width: 20%;
+}
+.alignline1{
+    display: flex;
+    justify-content: center;
+    padding-top: 5vh;
+    padding-bottom: 7vh;
+}
+
+
+/* -------------------------------------formação------------------------------ */
+.formacao{
+    text-align: center;
+    font-size: 3vh;
+}
+
+
+
+/* ------------------------------------experiência--------------------------- */
+.experiencia{
+    text-align: center;
+    font-size: 3vh;
+}
+
+
+/* ------------------------------------idiomas------------------------------- */
+
+.idiomas{
+    text-align: center;
+    font-size: 3vh;
+}
+
+
+/* -----------------------------------hobbies-------------------------------- */
+.hobbies{
+    text-align: center;
+    font-size: 3vh;
+}
+
+
+/* ------------------------------------------------------------------Tecnologias---------------------------------------------------------- */
+.tecnologias{
+    min-height: 100vh;
+}
+
+/* --------------------------------------------------------------------projetos----------------------------------------------------------- */
+.projetos{
+    min-height: 100vh;
+}
+
+/* ---------------------------------------------------------------------contato------------------------------------------------------------ */
+.contato{
+    min-height: 100vh;
+}
+#contform{
+    padding-top: 9vh;
+}
+.contnumtel{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+.email{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+    padding-right: 2vh;
+}
+.telefone{
+    width: 50%;
+    padding-left: 2vh;
+}
+input[type="tel"]{
+    width: 50%;
+    height: 5vh;
+    border-radius: 1rem;
+    padding-left: 2vh;
+}
+input[type="email"]{
+    width: 50%;
+    height: 5vh;
+    border-radius: 1rem;
+    padding-left: 2vh;
+}
+.nome{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+.mensagem{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    padding-bottom: 2vh;
+}
+input[type="text"]{
+    width: 51.2%;
+    border-radius: 1rem;
+    padding-left: 2vh;
+}
+input#inome{
+    height: 5vh;
+}
+input#imsg{
+    height: 15vh;
+    padding-bottom: 8vh;
+}
+.enviarbtt{
+    display: flex;
+    justify-content: end;
+    padding-right: 17%;
+    width: 51.2%;
+}
+input[type="submit"]{
+    width: 28%;
+    border-radius: 1rem;
+    border: none;
+    height: 5vh;
+    cursor: pointer;
+
+}
+.mapa{
+    display: flex;
+    justify-content: center;
+}
+iframe{
+    width: 51.2%;
+    border-radius: 1rem;
+}
+/* --------------------------------------------------------------------footer--------------------------------------------------------------- */
