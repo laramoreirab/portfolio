@@ -265,9 +265,12 @@ input[type="text"]{
 input#inome{
     height: 5vh;
 }
-input#imsg{
+textarea#imsg{
     height: 15vh;
-    padding-bottom: 8vh;
+    padding-top: 1.5vh;
+    width: 51.2%;
+    border-radius: 1rem;
+    padding-left: 2vh;
 }
 .enviarbtt{
     display: flex;
@@ -286,6 +289,23 @@ input[type="submit"]{
 .mapa{
     display: flex;
     justify-content: center;
+}
+.containeredes{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.mailcont{
+    width: 20%;
+    height: 35vh;
+    border-radius: 1rem;
+    background-color: aqua;
+}
+.linkedincont{
+     width: 20%;
+    height: 35vh;
+    border-radius: 1rem;
+    background-color: rgb(255, 0, 170);
 }
 iframe{
     width: 51.2%;
