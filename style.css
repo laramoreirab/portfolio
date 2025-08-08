@@ -296,16 +296,22 @@ input[type="submit"]{
     width: 100%;
 }
 .mailcont{
-    width: 20%;
+    width: 15%;
     height: 35vh;
     border-radius: 1rem;
     background-color: aqua;
 }
 .linkedincont{
-     width: 20%;
+     width: 15%;
     height: 35vh;
     border-radius: 1rem;
     background-color: rgb(255, 0, 170);
+}
+.instacont{
+    width: 15%;
+   height: 35vh;
+   border-radius: 1rem;
+   background-color: rgb(30, 255, 0);
 }
 iframe{
     width: 51.2%;
