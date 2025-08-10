@@ -133,7 +133,7 @@ button.saibamais{
 /* -------------------------------------------------------------------Sobre--------------------------------------------------------------- */
 
 .sobre{
-    min-height: 100vh;
+    min-height: 130vh;
 }
 .elem2{
     margin-left: 15vh;
@@ -201,7 +201,7 @@ hr.line1{
 
 /* ------------------------------------------------------------------Tecnologias---------------------------------------------------------- */
 .tecnologias{
-    min-height: 100vh;
+    min-height: 130vh;
 }
 .superiortech{
     display: flex;
@@ -289,9 +289,56 @@ img.imgc{
 
 /* --------------------------------------------------------------------projetos----------------------------------------------------------- */
 .projetos{
-    min-height: 100vh;
+    min-height: 170vh;
 }
-
+.explorar{
+    width: 17vh;
+    height: 6vh;
+    border-radius: 1rem;
+    border: none;
+    background-color: #dbdbdb;
+    color: #000;
+}
+.projetech{
+    padding-top: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 9vh;
+}
+.etechimg{
+    width: 35%;
+}
+.contexto1{
+    width: 35%;
+}
+.projnetflix{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 4vh;
+}
+.netimg{
+    width: 42%;
+}
+.contexto2{
+    width: 30%;
+}
+.projlogin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 4vh;
+}
+.loginimg{
+    width: 42%;
+}
+.contexto3{
+    width: 30%;
+}
 /* ---------------------------------------------------------------------contato------------------------------------------------------------ */
 .contato{
     min-height: 100vh;
