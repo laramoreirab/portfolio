@@ -203,6 +203,89 @@ hr.line1{
 .tecnologias{
     min-height: 100vh;
 }
+.superiortech{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 7vh;
+    gap: 5vh;
+}
+.inferiortech{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding-top: 7vh;
+    gap: 5vh;
+}
+img.imghtml{
+    width: 15%;
+    height: 15%;
+}
+.imghtml:hover{
+    transform: scale(1.05);
+}
+img.imgcss{
+    width: 15%;
+    height: 15%;
+}
+.imgcss:hover{
+    transform: scale(1.05);
+}
+img.imgphp{
+    width: 15%;
+    height: 18%;
+}
+.imgphp:hover{
+    transform: scale(1.05);
+}
+img.imgjavascri{
+    width: 15.5%;
+    height: 15.5%;
+}
+.imgjavascri:hover{
+    transform: scale(1.05);
+}
+img.imgpython{
+    width: 15%;
+    height: 15%;
+}
+.imgpython:hover{
+    transform: scale(1.05);
+}
+img.imgjava{
+    width: 16%;
+    height: 16%;
+}
+.imgjava:hover{
+    transform: scale(1.05);
+}
+img.imgcplus{
+    width: 15%;
+    height: 15%;
+}
+.imgcplus:hover{
+    transform: scale(1.05);
+}
+img.imgc{
+    width: 15%;
+    height: 15%;
+}
+.imgc:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* --------------------------------------------------------------------projetos----------------------------------------------------------- */
 .projetos{
