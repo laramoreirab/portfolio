@@ -134,39 +134,82 @@ button.saibamais{
 
 .sobre{
     min-height: 130vh;
-}
-.elem2{
-    margin-left: 15vh;
-}
-.fotolara{
-    width: 58%;
+    display: flex;
 }
 .foto{
-    position: relative;
-    left: -42vh;
-}
-.superiorsobre{
-    display: flex;
-    align-items: center;
-    padding-top: 5vh;
-}
-.titulosobre{
-   position: relative;
-   right: 45vh;
-}
-.nomesobre{
-    font-size: 4vh;
-    padding-bottom: 1.5vh;
-}
-hr.line1{
-    width: 20%;
-}
-.alignline1{
     display: flex;
     justify-content: center;
-    padding-top: 5vh;
-    padding-bottom: 7vh;
 }
+.fotolara{
+    width: 70%;
+}
+.nomesobre{
+    text-align: center;
+    padding-bottom: 1vh;
+}
+.subsobre{
+    text-align: center;
+}
+.infosobre{
+    margin-left: 10vh;
+    width: 30%;
+}
+.continfogerais{
+    padding-top: 4vh;
+    display: flex;
+    justify-content: center;
+}
+.local{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1vh;
+    padding-bottom: 1.5vh;
+}
+.idade{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1vh;
+    padding-bottom: 1.5vh;
+}
+.emailsobre{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1vh;
+    padding-bottom: 1.5vh;
+}
+.gitsobre{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1vh;
+}
+.curriculo{
+    display: flex;
+    padding-right: 15vh;
+    padding-top: 7vh;
+}
+.parte1{
+    width: 50%;
+}
+.parte2{
+    width: 50%;
+}
+.superiorobj{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+}
+.alignline1{
+    width: 30%;
+}
+
+
+
+
 
 
 /* -------------------------------------formação------------------------------ */
@@ -298,14 +341,20 @@ img.imgc{
     border: none;
     background-color: #dbdbdb;
     color: #000;
+    box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.418);
+    cursor: pointer;
+}
+.explorar:hover{
+    transform: scale(1.05);
 }
 .projetech{
-    padding-top: 7vh;
+    padding-top: 7.5vh;
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     gap: 9vh;
+    padding-bottom: 8vh;
 }
 .etechimg{
     width: 35%;
@@ -313,12 +362,17 @@ img.imgc{
 .contexto1{
     width: 35%;
 }
+.textetech{
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
 .projnetflix{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     gap: 4vh;
+    padding-bottom: 8vh;
 }
 .netimg{
     width: 42%;
@@ -326,18 +380,27 @@ img.imgc{
 .contexto2{
     width: 30%;
 }
+.textnet{
+    padding-bottom: 2vh;
+    padding-top: 2vh;
+}
 .projlogin{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     gap: 4vh;
+    padding-bottom: 10vh;
 }
 .loginimg{
     width: 42%;
 }
 .contexto3{
     width: 30%;
+}
+.textlogin{
+    padding-bottom: 2vh;
+    padding-top: 2vh;
 }
 /* ---------------------------------------------------------------------contato------------------------------------------------------------ */
 .contato{
