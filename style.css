@@ -28,13 +28,13 @@ header{
 .logotipo{
     width: 50%;
 }
-ul{
+ul.menu{
     display: flex;
     justify-content: end;
     gap: 4vh;
     margin-right: 15vh;
 }
-li{
+li.sessao{
     list-style: none;
 }
 a{
@@ -133,8 +133,9 @@ button.saibamais{
 /* -------------------------------------------------------------------Sobre--------------------------------------------------------------- */
 
 .sobre{
-    min-height: 130vh;
+    min-height: 100vh;
     display: flex;
+    padding-top: 2vh;
 }
 .foto{
     display: flex;
@@ -152,7 +153,7 @@ button.saibamais{
 }
 .infosobre{
     margin-left: 10vh;
-    width: 30%;
+    width: 80%;
 }
 .continfogerais{
     padding-top: 4vh;
@@ -189,13 +190,17 @@ button.saibamais{
 .curriculo{
     display: flex;
     padding-right: 15vh;
+    padding-left: 5vh;
     padding-top: 7vh;
+    gap: 5vh;
 }
 .parte1{
     width: 50%;
+    height: 80vh;
 }
 .parte2{
     width: 50%;
+    height: 80vh;
 }
 .superiorobj{
     display: flex;
@@ -206,45 +211,134 @@ button.saibamais{
 .alignline1{
     width: 30%;
 }
-
-
-
-
-
-
-/* -------------------------------------formação------------------------------ */
-.formacao{
-    text-align: center;
-    font-size: 3vh;
+.objetxt{
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.superiorformacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    padding-bottom: 3vh;
+}
+.alignline2{
+    width: 30%;
+}
+.haste{
+    margin-left: 3vh;
+    height: 38vh;
+    border: solid 2.3px #000;
+    border-right: none;
+    border-bottom: none;
+    border-top: none;
+}
+.bolinhapreta{
+    width: 1.7vh;
+    padding-bottom: 8vh;
+}
+.bolinhas{
+    margin-left: 2.3vh;
+    position: relative;
+    top: -36vh;
+}
+.cronologia{
+    padding-left: 5vh;
+    position: relative;
+    bottom: 77.3vh;
+}
+.anoeng{
+    padding-bottom: 0.5vh;
+}
+.anobct{
+    padding-bottom: 0.5vh;
+}
+.anotec{
+    padding-bottom: 0.5vh;
+}
+.anomedio{
+    padding-bottom: 0.5vh;
+}
+.instufabc{
+    padding-bottom: 2.8vh;
+}
+.instsenai{
+    padding-bottom: 2.5vh;
+}
+.softskills{
+}
+.alignline3{
+    width: 30%;
+}
+.superiorsoft{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    padding-bottom: 3vh;
+}
+.superioridiomas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    padding-bottom: 3vh;
+}
+.alignline4{
+    width: 30%;
+}
+.labelportugues{
+    font-size: 2vh;
+}
+.portugues{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 0.5vh
+}
+.proficiencia1{
+    width: 12vh;
+}
+.ingles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 3.5vh;
+}
+.proficiencia2{
+    width: 12vh;
 }
 
 
-
-/* ------------------------------------experiência--------------------------- */
-.experiencia{
-    text-align: center;
-    font-size: 3vh;
+.superiorcursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    padding-bottom: 3vh;
 }
-
-
-/* ------------------------------------idiomas------------------------------- */
-
-.idiomas{
-    text-align: center;
-    font-size: 3vh;
+.alignline5{
+    width: 30%;
 }
-
-
-/* -----------------------------------hobbies-------------------------------- */
-.hobbies{
-    text-align: center;
-    font-size: 3vh;
+.listacursos{
+    padding-bottom: 3vh;
 }
-
-
+.superiortrabvol{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5vh;
+    padding-bottom: 3vh;
+}
+.alignline6{
+    width: 30%;
+}
+.trabtxt{
+    padding-bottom: 3vh;
+}
 /* ------------------------------------------------------------------Tecnologias---------------------------------------------------------- */
 .tecnologias{
-    min-height: 130vh;
+    min-height: 100vh;
 }
 .superiortech{
     display: flex;
