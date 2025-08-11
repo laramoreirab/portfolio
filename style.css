@@ -56,7 +56,7 @@ a{
     bottom: 0;
     height: 3px;
     width: 100px;
-    background-color: #0064e0;
+    background-color: #0065e0b7;
     transform: translateX(-100%);
     transition: transform 0.4s ease-in-out;
 }
@@ -103,9 +103,10 @@ a{
 h1.titulocorpo{ 
     text-align: center;
     font-size: 4vh;
+    padding-top: 5vh;
 }
 .apresentacao{
-    min-height: 110vh;
+    min-height: 130vh;
     overflow-x: hidden;
 }
 .aprenbox{
@@ -161,16 +162,15 @@ button.saibamais{
 /* -------------------------------------------------------------------Sobre--------------------------------------------------------------- */
 
 .sobre{
-    min-height: 95vh;
+    min-height: 100vh;
     display: flex;
-    padding-top: 2vh;
 }
 .foto{
     display: flex;
     justify-content: center;
 }
 .fotolara{
-    width: 70%;
+    width: 80%;
 }
 .nomesobre{
     text-align: center;
@@ -181,10 +181,10 @@ button.saibamais{
 }
 .infosobre{
     margin-left: 10vh;
-    width: 80%;
+    width: 90%;
 }
 .continfogerais{
-    padding-top: 4vh;
+    padding-top: 5vh;
     display: flex;
     justify-content: center;
 }
@@ -217,7 +217,7 @@ button.saibamais{
 }
 .curriculo{
     display: flex;
-    padding-right: 15vh;
+    padding-right: 10vh;
     padding-left: 5vh;
     padding-top: 7vh;
     gap: 5vh;
@@ -242,6 +242,7 @@ button.saibamais{
 .objetxt{
     padding-top: 3vh;
     padding-bottom: 3vh;
+    text-align: justify;
 }
 .superiorformacao{
     display: flex;
@@ -362,6 +363,9 @@ button.saibamais{
 }
 .trabtxt{
     padding-bottom: 3vh;
+}
+.voluntariado{
+    font-size: 1.6vh;
 }
 /* ------------------------------------------------------------------Tecnologias---------------------------------------------------------- */
 .tecnologias{
