@@ -106,7 +106,7 @@ h1.titulocorpo{
     padding-top: 5vh;
 }
 .apresentacao{
-    min-height: 130vh;
+    min-height: 100vh;
     overflow-x: hidden;
 }
 .aprenbox{
@@ -182,6 +182,7 @@ button.saibamais{
 .infosobre{
     margin-left: 7vh;
     width: 100%;
+    padding-top: 7vh;
 }
 .continfogerais{
     padding-top: 5vh;
@@ -219,7 +220,7 @@ button.saibamais{
     display: flex;
     padding-right: 7vh;
     padding-left: 5vh;
-    padding-top: 5vh;
+    padding-top: 8vh;
     gap: 7vh;
 }
 .parte1{
@@ -264,17 +265,17 @@ button.saibamais{
 }
 .bolinhapreta{
     width: 1.7vh;
-    padding-bottom: 9vh;
+    padding-bottom: 10vh;
 }
 .bolinhas{
-    margin-left: 2.4vh;
+    margin-left: 2.3vh;
     position: relative;
-    top: -41vh;
+    top: -42vh;
 }
 .cronologia{
     padding-left: 5vh;
     position: relative;
-    bottom: 87vh;
+    bottom: 91vh;
 }
 .anoeng{
     padding-bottom: 0.5vh;
@@ -289,10 +290,10 @@ button.saibamais{
     padding-bottom: 0.5vh;
 }
 .instufabc{
-    padding-bottom: 1.7vh;
+    padding-bottom: 5.5vh;
 }
 .instsenai{
-    padding-bottom: 1.7vh;
+    padding-bottom: 5.5vh;
 }
 
 .alignline3{
@@ -316,7 +317,7 @@ button.saibamais{
     width: 30%;
 }
 .labelportugues{
-    font-size: 1em;
+    font-size: 1em; 
 }
 .portugues{
     display: flex;
@@ -350,9 +351,6 @@ button.saibamais{
 }
 .listacursos{
     padding-bottom: 3vh;
-}
-.topicocurso{
-   font-size: 2vh;
 }
 .superiortrabvol{
      display: flex;
@@ -444,19 +442,6 @@ img.imgc{
 .imgc:hover{
     transform: scale(1.05);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* --------------------------------------------------------------------projetos----------------------------------------------------------- */
 .projetos{
