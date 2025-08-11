@@ -16,6 +16,8 @@ header{
     padding-top: 2vh;
     width: 100%;
     position: fixed;
+    background-color: rgba(255, 255, 255, 0.87);
+    z-index: 1000;
 }
 .cabecalho{
     display: flex;
@@ -41,6 +43,27 @@ a{
     text-decoration: none;
     color: black;
 }
+.linkmenu{
+    position: relative;
+    padding: 0.5rem 0;
+    display: inline-block;
+    overflow: hidden;
+}
+.linkmenu::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 100px;
+    background-color: #0064e0;
+    transform: translateX(-100%);
+    transition: transform 0.4s ease-in-out;
+}
+.linkmenu:hover::before{
+    transform: translateX(0);
+}
+
 .logo{
     display: flex;
     justify-content: start;
@@ -51,7 +74,8 @@ a{
     top: -15vh;
 }
 .mark1{
-    width: 139%;
+    width: 135%;
+    overflow: hidden;
     transform: rotate(-6deg);
     animation-name: movimento;
     animation-duration: 3s;
@@ -61,17 +85,11 @@ a{
     0%{
        transform: translateX(0);
     }
-    25%{
-        transform: translateX(-1)
-    }
     50%{
-        transform: translateX(2)
-    }
-    75%{
-        transform: translateX(3)
+        transform: rotate(-5deg);
     }
     100%{
-        transform: translateX(-90)
+        transform: translateX(0)
     }
 }
 .avatar{
@@ -87,7 +105,7 @@ h1.titulocorpo{
     font-size: 4vh;
 }
 .apresentacao{
-    min-height: 100vh;
+    min-height: 110vh;
     overflow-x: hidden;
 }
 .aprenbox{
@@ -109,14 +127,18 @@ h1.titulocorpo{
     padding-bottom: 3vh;
 }
 button.saibamais{
-    width: 16vh;
-    height: 4vh;
+    width: 17vh;
+    height: 6vh;
     border: none;
     border-radius: 1rem;
     cursor: pointer;
+    box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.247);
+}
+.saibamais:hover{
+    transform: scale(1.05);
 }
 .saibamais{
-    color: rgb(119, 119, 119);
+    color: rgb(0, 0, 0);
 }
 .mainredes{
     padding-top: 5vh;
@@ -125,15 +147,21 @@ button.saibamais{
     padding-right: 0.6vh;
     cursor: pointer;
 }
+.fa-brands:hover{
+    transform: scale(1.05);
+}
 .fa-solid{
     cursor: pointer;
+}
+.fa-solid:hover{
+    transform: scale(1.05);
 }
 
 
 /* -------------------------------------------------------------------Sobre--------------------------------------------------------------- */
 
 .sobre{
-    min-height: 100vh;
+    min-height: 95vh;
     display: flex;
     padding-top: 2vh;
 }
@@ -265,8 +293,7 @@ button.saibamais{
 .instsenai{
     padding-bottom: 2.5vh;
 }
-.softskills{
-}
+
 .alignline3{
     width: 30%;
 }
@@ -344,7 +371,7 @@ button.saibamais{
     display: flex;
     justify-content: center;
     width: 100%;
-    padding-top: 7vh;
+    padding-top: 8vh;
     gap: 5vh;
 }
 .inferiortech{
@@ -433,9 +460,9 @@ img.imgc{
     height: 6vh;
     border-radius: 1rem;
     border: none;
-    background-color: #dbdbdb;
+    background-color: #dbdbdba4;
     color: #000;
-    box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.418);
+    box-shadow: 8px 8px 18px rgba(0, 0, 0, 0.295);
     cursor: pointer;
 }
 .explorar:hover{
@@ -689,5 +716,30 @@ p.textmail{
 iframe{
     width: 51.2%;
     border-radius: 1rem;
+    padding-bottom: 6vh;
 }
 /* --------------------------------------------------------------------footer--------------------------------------------------------------- */
+footer{
+    height: 20vh;
+    background-color: #dfeffce8;
+}
+.footertxt{
+    padding-top: 4vh;
+    text-align: center;
+    color: #4d4c4c;
+}
+.alinharlinha{
+    padding-top: 3vh;
+    display: flex;
+    justify-content: center;
+}
+.linefooter{
+    width: 5%;
+    color: #000;
+}
+.iconsfooter{
+    padding-top: 5vh;
+    display: flex;
+    justify-content: center;
+    color: #4b4b4b;
+}
