@@ -9,7 +9,7 @@ $arquivo = file("editor.txt")
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link href='https://cdn.boxicons.com/fonts/basic/boxicons.min.css' rel='stylesheet'>
-    <link rel="icon" type="image/png"  href="/imagem/logo/favicon.png">
+    <link rel="icon" type="image/png"  href="imagem/logo/favicon.png">
     <script src="https://kit.fontawesome.com/5e045f87ce.js" crossorigin="anonymous"></script>
     <title>Portfólio</title>
 </head>
@@ -18,7 +18,7 @@ $arquivo = file("editor.txt")
         <header>
             <div class="cabecalho">
                 <div class="logo">
-                    <img src="/imagem/logo/logolara.png" alt="logo" class="logotipo">
+                    <img src="imagem/logo/logolara.png" alt="logo" class="logotipo">
                 </div>
                 <nav>
                     <ul class="menu">
@@ -33,8 +33,8 @@ $arquivo = file("editor.txt")
         </header>
         <div class="apresentacao">
             <div class="aprenbox">
-                <div class="elem1">  <img  class="mark1"  src="/imagem/elementos/manchamain.png" alt="" ></div>
-                <div class="avatar" ><img src="/imagem/elementos/avatarlaraok.png" alt="" class="avatarlara"></div>
+                <div class="elem1">  <img  class="mark1"  src="imagem/elementos/manchamain.png" alt="" ></div>
+                <div class="avatar" ><img src="imagem/elementos/avatarlaraok.png" alt="" class="avatarlara"></div>
                 <h1 class="titulointro"><?php echo "$arquivo[0]"?></h1>
                 <h2 class="subtitulointro">Desenvolvedora Fullstack</h2>
                 <p class="textointro"><?php echo "$arquivo[1]"?></p>
@@ -51,7 +51,7 @@ $arquivo = file("editor.txt")
     <h1 class="titulocorpo"><?php echo "$arquivo[2]"?></h1>
     <div class="sobre">
         <div class="infosobre">
-                <div class="foto"><img src="/imagem/elementos/fotolara.svg" class="fotolara"></div>
+                <div class="foto"><img src="imagem/elementos/fotolara.svg" class="fotolara"></div>
         <div class="titulosobre">
             <h2 class="nomesobre"><?php echo "$arquivo[3]"?></h2>
             <h4 class="subsobre"><?php echo "$arquivo[4]"?></h4>
@@ -95,10 +95,10 @@ $arquivo = file("editor.txt")
                     <div class="linhadotempo">
                         <div class="haste"></div>
                         <div class="bolinhas">
-                        <div class="bolinha1"><img src="/imagem/elementos/bolinha.png" class="bolinhapreta"  alt=""></div>
-                        <div class="bolinha2"><img src="/imagem/elementos/bolinha.png" class="bolinhapreta" alt=""></div>
-                        <div class="bolinha3"><img src="/imagem/elementos/bolinha.png" class="bolinhapreta" alt=""></div>
-                        <div class="bolinha4"><img src="/imagem/elementos/bolinha.png"  class="bolinhapreta" alt=""></div>
+                        <div class="bolinha1"><img src="imagem/elementos/bolinha.png" class="bolinhapreta"  alt=""></div>
+                        <div class="bolinha2"><img src="imagem/elementos/bolinha.png" class="bolinhapreta" alt=""></div>
+                        <div class="bolinha3"><img src="imagem/elementos/bolinha.png" class="bolinhapreta" alt=""></div>
+                        <div class="bolinha4"><img src="imagem/elementos/bolinha.png"  class="bolinhapreta" alt=""></div>
                         </div>
                     </div>
                     <div class="cronologia">
@@ -128,11 +128,11 @@ $arquivo = file("editor.txt")
                     </div>
                     <div class="portugues">
                         <p class="labelportugues"><?php echo "$arquivo[13]"?></p>
-                        <img src="/imagem/elementos/nivelport.png" alt="" class="proficiencia1">
+                        <img src="imagem/elementos/nivelport.png" alt="" class="proficiencia1">
                     </div>
                     <div class="ingles">
                         <p class="labelingles"><?php echo "$arquivo[14]"?></p>
-                        <img src="/imagem/elementos/niveling.png" alt="" class="proficiencia2">
+                        <img src="imagem/elementos/niveling.png" alt="" class="proficiencia2">
                     </div>
                 </div>
                 <div class="cursos">
@@ -177,16 +177,16 @@ $arquivo = file("editor.txt")
         <h1 class="titulocorpo"><?php echo "$arquivo[21]"?></h1>
         <div class="contech">
             <div class="superiortech">
-                <img src="/imagem/elementos/hteml.png" class="imghtml">
-                <img src="/imagem/elementos/cess.png" alt="" class="imgcss">
-                <img src="/imagem/elementos/javascri.png" alt="" class="imgjavascri">
-                <img src="/imagem/elementos/pehp.png" alt="" class="imgphp">
+                <img src="imagem/elementos/hteml.png" class="imghtml">
+                <img src="imagem/elementos/cess.png" alt="" class="imgcss">
+                <img src="imagem/elementos/javascri.png" alt="" class="imgjavascri">
+                <img src="imagem/elementos/pehp.png" alt="" class="imgphp">
             </div>
             <div class="inferiortech">
-                <img src="/imagem/elementos/java.png" alt="" class="imgjava">
-                <img src="/imagem/elementos/python.png" alt="" class="imgpython">
-                <img src="/imagem/elementos/cplus.png" alt="" class="imgcplus">
-                <img src="/imagem/elementos/clang.png" alt="" class="imgc">
+                <img src="imagem/elementos/java.png" alt="" class="imgjava">
+                <img src="imagem/elementos/python.png" alt="" class="imgpython">
+                <img src="imagem/elementos/cplus.png" alt="" class="imgcplus">
+                <img src="imagem/elementos/clang.png" alt="" class="imgc">
             </div>
         </div>
     </div>
@@ -196,7 +196,7 @@ $arquivo = file("editor.txt")
     <div class="projetos">
         <h1 class="titulocorpo"><?php echo "$arquivo[22]"?></h1>
         <div class="projetech">
-            <img src="/imagem/projetos/etech.jpeg" class="etechimg">
+            <img src="imagem/projetos/etech.jpeg" class="etechimg">
             <div class="contexto1">
                 <h2 class="etechtitle"><?php echo "$arquivo[23]"?></h2>
                 <p class="textetech"><?php echo "$arquivo[24]"?></p>
@@ -219,10 +219,10 @@ $arquivo = file("editor.txt")
                 </a> 
             </button>
             </div>
-            <img src="/imagem/projetos/netflixclone.jpeg" class="netimg">
+            <img src="imagem/projetos/netflixclone.jpeg" class="netimg">
         </div>
         <div class="projlogin">
-            <img src="/imagem/projetos/paginalogin.jpeg" class="loginimg">
+            <img src="imagem/projetos/paginalogin.jpeg" class="loginimg">
             <div class="contexto3">
             <h2 class="logintitle"><?php echo "$arquivo[27]"?></h2>
             <p class="textlogin"><?php echo "$arquivo[28]"?></p>
