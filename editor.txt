@@ -1,0 +1,30 @@
+Olá, eu sou a Lara Moreira!
+Meu nome é Lara, tenho 19 anos e atualmente estou estudando desenvolvimento fullstack, buscando aprimorar minhas habilidades técnicas e criativas. Meu interesse por tecnologia e ciência me impulsiona a aprender continuamente e explorar novas ideias. Aqui você encontrará minha trajetória, habilidades e projetos — fique à vontade para explorar e conhecer meu trabalho. 
+Sobre mim
+Lara Moreira Barreto
+Desenvolvimento | Fullstack | Computação | Engenharia
+São Paulo, Brasil
+19 Anos
+laramoreiraba@gmail.com
+laramoreirab
+Objetivo
+Atuar como desenvolvedora fullstack ou estagiária na área de tecnologia, aplicando conhecimentos técnicos e criatividade no desenvolvimento de soluções. Busco constantemente aprimorar minhas habilidades em programação, contribuindo para projetos que unam eficiência, usabilidade e confiabilidade, enquanto evoluo como profissional na área de tecnologia e ciência.
+Formação
+Idiomas
+Português:
+Inglês:
+Cursos
+Trabalho Voluntário
+No dia 17/05/2025, participei como voluntária na organização da Maratona Paulista de Programação (MPP), uma competição de programação competitiva que se destina a estudantes dos cursos de graduação de universidades de São Paulo.
+No ano de 2022 tive a oportunidade de participar como voluntária nas oficinas no evento "Arena no Parque" realizado pela Faculdade e Colégio Engenheiro Salvador Arena, um projeto da comunidade escolar que pretende colaborar socialemente levando acesso cultural á comunidade.
+Soft Skills
+Prezo por um bom relacionamento interpessoal, busca constante por aprendizado aliada a pensamento crítico, organização e proatividade
+Tecnologias
+Projetos
+Projeto e-Tech
+O projeto e-Tech foi desenvolvido em 2025, com a proposta de ser um ecommerce de eletrônicos no qual sua função principal é possibilitar o usuário a usar o carrinho de compras e finalizar seu pedido. Sendo desenvolvido em HTML, CSS, Javascript e PHP.
+Netflix Clone
+O Netflix clone foi meu primeiro projeto feito totalmente sem consulta. Desenvolvido em 2024, a finalidade foi reproduzir de forma mais fiel a página de login do streamming Netflix, além de estudar como é estruturado páginas de entrada e sua elementação
+Página de Login
+Login Page foi um projeto desenvolvido com a finalidade de estudo em linguagens de marcação, HTML e CSS. Esse projeto desenvolvido em 2024 foi o primeiro contato que tive com desenvolvimento web e realizado juntamente com materiais de apoio.
+lara_moreira05
