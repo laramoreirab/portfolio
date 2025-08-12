@@ -240,10 +240,10 @@ $arquivo = file("editor.txt")
     <section id="contt">
     <div class="contato">
         <h1 class="titulocorpo">Contato</h1>
-        <form id="contform" action="#.php" method="post">
+        <form id="contform" action="contato.php" method="post">
         <div class="contnumtel">
-            <div class="email"><input type="email" placeholder="Email"></div>
-            <div class="telefone"><input type="tel" pattern=[0-9]{2}[0-9]{5}-[0-9]{4} placeholder="Celular"></div>
+            <div class="email"><input type="email" id="iemail" placeholder="Email"></div>
+            <div class="telefone"><input type="tel" id="icelular" pattern=[0-9]{2}[0-9]{5}-[0-9]{4} placeholder="Celular"></div>
         </div>
         <div class="nome"><input type="text" id="inome" placeholder="Nome"></div>
         <div class="mensagem"><textarea id="imsg" placeholder="Mensagem"></textarea></div>
