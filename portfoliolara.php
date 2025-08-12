@@ -241,13 +241,13 @@ $arquivo = file("editor.txt")
     <div class="contato">
         <h1 class="titulocorpo">Contato</h1>
         <form id="contform" action="contato.php" method="post">
-        <div class="contnumtel">
-            <div class="email"><input type="email" id="iemail" placeholder="Email"></div>
-            <div class="telefone"><input type="tel" id="icelular" pattern=[0-9]{2}[0-9]{5}-[0-9]{4} placeholder="Celular"></div>
-        </div>
-        <div class="nome"><input type="text" id="inome" placeholder="Nome"></div>
-        <div class="mensagem"><textarea id="imsg" placeholder="Mensagem"></textarea></div>
-        <div class="enviarbtt"><input type="submit"></div>
+            <div class="contnumtel">
+                <div class="email"><input type="email" id="iemail" placeholder="Email"></div>
+                <div class="telefone"><input type="tel" id="icelular" placeholder="Celular"></div>
+            </div>
+            <div class="nome"><input type="text" id="inome" placeholder="Nome"></div>
+            <div class="mensagem"><textarea id="imsg" placeholder="Mensagem"></textarea></div>
+            <div class="enviarbtt"><input type="submit"></div>
         </form>
         <div class="containeredes">
             <div class="mailcont">
@@ -259,7 +259,7 @@ $arquivo = file("editor.txt")
                 <p class="textlink"><?php echo "$arquivo[3]"?></p>
             </div>
             <div class="instacont">
-                <i class="fa-brands fa-instagram fa-2xl" id="instagram"></i>
+                                <i class="fa-brands fa-instagram fa-2xl" id="instagram"></i>
                 <p class="textinsta"><?php echo "$arquivo[29]"?></p>
             </div>
         </div>

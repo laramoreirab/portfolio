@@ -3,7 +3,7 @@
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     
     // Coleta os dados do formulário
-    $nome = htmlspecialchars(trim($_POST["iname"]));
+    $nome = htmlspecialchars(trim($_POST["inome"]));
     $email = htmlspecialchars(trim($_POST["iemail"]));
     $mensagem = htmlspecialchars(trim($_POST["imsg"]));
     $celular = htmlspecialchars(trim($_POST["icelular"]));
