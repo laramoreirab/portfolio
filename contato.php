@@ -12,7 +12,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     if (!empty($nome) && !empty($email) && !empty($mensagem) && !empty($celular)) {
         
         // Cria uma string com os dados
-        $dados = "Nome: $nome\nEmail: $email\n Celular: $celular\n Mensagem: $mensagem\n\n";
+        $dados = "Nome: $nome\nEmail: $email\nCelular: $celular\nMensagem: $mensagem\n\n";
 
         // Define o caminho do arquivo onde será salvo
         $arquivo = "mensagens.txt";

@@ -242,11 +242,11 @@ $arquivo = file("editor.txt")
         <h1 class="titulocorpo">Contato</h1>
         <form id="contform" action="contato.php" method="post">
             <div class="contnumtel">
-                <div class="email"><input type="email" id="iemail" placeholder="Email"></div>
-                <div class="telefone"><input type="tel" id="icelular" placeholder="Celular"></div>
+                <div class="email"><input type="email" id="iemail" name="iemail" placeholder="Email"></div>
+                <div class="telefone"><input type="tel" id="icelular" name="icelular" placeholder="Celular"></div>
             </div>
-            <div class="nome"><input type="text" id="inome" placeholder="Nome"></div>
-            <div class="mensagem"><textarea id="imsg" placeholder="Mensagem"></textarea></div>
+            <div class="nome"><input type="text" id="inome" name="inome" placeholder="Nome"></div>
+            <div class="mensagem"><textarea id="imsg" name="imsg" placeholder="Mensagem"></textarea></div>
             <div class="enviarbtt"><input type="submit"></div>
         </form>
         <div class="containeredes">
